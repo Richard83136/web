@@ -12,7 +12,7 @@ body{
 }
 .parallax {
   /* Votre image */
-  background-image: url("https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg");
+  
 
   /* Une hauteur spécifique */
   height: 1000px;
@@ -30,7 +30,7 @@ h1{
 }
 .parallax1 {
   /* Votre image */
-  background-image: url("/assets/img/1a.png");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -46,7 +46,7 @@ h1{
 
 .parallax2 {
   /* Votre image */
-  background-image: url("/assets/img/freelance1.png");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -61,7 +61,7 @@ h1{
 
 .parallax3 {
   /* Votre image */
-  background-image: url("/assets/img/4c.png");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -74,7 +74,7 @@ h1{
 }
 .parallax4 {
   /* Votre image */
-  background-image: url("/assets/img/4a.png");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -87,7 +87,7 @@ h1{
 }
 .parallax5 {
   /* Votre image */
-  background-image: url("/assets/img/5.jpg");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -100,7 +100,7 @@ h1{
 }
 .parallax6 {
   /* Votre image */
-  background-image: url("/assets/img/designweb.png");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -113,7 +113,7 @@ h1{
 }
 .parallax7 {
   /* Votre image */
-  background-image: url("/assets/img/choix.jpg");
+
 
   /* Une hauteur spécifique */
   height: 950px;
@@ -126,7 +126,7 @@ h1{
 }
 .parallax8 {
   /* Votre image */
-  background-image: url("/assets/img/correct.jpg");
+
 
   /* Une hauteur spécifique */
   height: 950px;
