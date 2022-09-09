@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+  <title>Tarifs</title>
+
+</head>
+<style>
+  .corps{
+  background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('/assets/img/fond-ecran.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+<body >
+
+    <div class="corps container-fluid" style="margin-top:-40px;">
+      <img src="/assets/img/logoRS.png" class="d-block mx-auto" style="padding-top: 15px; " alt="logositeweb">
+      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="font-family: 'Prompt', sans-serif; color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+        <nav class="navbar navbar-expand-lg ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid">
+            <div class=" collapse navbar-collapse w-50" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mon experience
+                  </a>
+                  <ul class="dropdown-menu">
+                    
+                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    La création de votre site
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mes tarifs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/tarifs']">Site de présentation</a></li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/me-contacter']">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Parallax</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+        <hr style="color:black;font-weight:bold; border-width: 3px" class="w-50 mx-auto">
+        <div class="container">
+          <h2 class="text-center">VOTRE SITE DE PRESENTATION</h2><br>
+          <p class="text-center" style="color:rgb(121, 94, 60);font-size: 25px;font-weight:bold;">1790 €</p>
+          <p class="text-center" style="color:rgb(121, 94, 60);font-size: 13px;font-weight:bold; margin-top: -25px;">(hébergement et maintenance compris)</p><br><br>
+          <p style="text-align:justify;margin-left: 10%;color:black; ">Ma formule complète vous assure une conception et un accompagnement de grande qualité durant toute la durée de vie<br>
+          de votre site de 1 à 10 pages. Aucun abonnement ni forfait de maintenance n'est nécessaire à la suite de mon travail initial.<br>
+          Ma prestation éprouvée est complète, sans surprise et réalisée avec un objectif en tête : vous offrir une belle vitrine en<br> ligne avec un excellent référencement pour maximiser sa rentabilité.</p><br>
+
+            <div class="row">
+              <div class="col">
+        <img src="assets/img/designweb.png" class="w-100"alt="designweb"><br> </div>
+              <div class="col">
+        <img src="assets/img/conception.png" class="w-100"alt="conceptionweb"></div>
+            </div>
+            <div class="row">
+              <div class="col ">
+        <p style="background-color:rgb(61, 61, 46); width: 100%; height: 100%;margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">RECHERCHE</span> <br><br>
+          Réflexion autour du site internet, de son arborescence à ses fonctionnalités, en passant par son ergonomie et son interface graphique (mise en page, thème de couleurs, ambiance générale, ...).</p><br> </div>
+              <div class="col ">
+                <p style="background-color:rgb(61, 61, 46); width: 100%; height: 100%;margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">DESIGN</span> <br><br>
+                  Réalisation esthétique du site internet : mise en page, colorway, modules divers. Votre site bénéficiera de toute mon expérience et de ma créativité. Je créerai un site moderne, bien agencé, très agréable à naviguer, répondant aux meilleurs standards actuels en termes de mise en page, de polices sélectionnées et de thèmes de couleurs.</p><br> </div>
+            </div><br>
+
+            <div class="row">
+              <div class="col">
+        <img src="assets/img/freelance4.png" class="w-100" alt="freelance_web"><br> </div>
+              <div class="col">
+        <img src="assets/img/ergonomie.png" class="w-100" alt="ergonomie_web"></div>
+            </div>
+            <div class="row">
+              <div class="col ">
+        <p style="background-color:rgb(61, 61, 46); width: 100%; height: 100%;margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">IMPLANTATION DU CONTENU</span> <br><br>
+          Implantation de tout votre contenu rédactionnel, de vos photos, liens externes et coordonnées. Je vous fournirai des photos d'illustration de très haute qualité soigneusement sélectionnées si besoin. Je vous apporterai en toute sincérité mon regard de professionnel sur le contenu que vous souhaitez implanter afin de maximiser vos chances de réussite.</p><br> </div>
+              <div class="col ">
+                <p style="background-color:rgb(61, 61, 46); width: 100%; height: 100%;margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">ERGONOMIE</span> <br><br>
+                  Le site sera conçu pour que l'internaute puisse le parcourir facilement et avec plaisir. Il trouvera ce qui'il cherchera là où il s'attend à le trouver tout en ayant à son attention les éléments que vous souhaiteriez mettre en avant. Les modules, grilles, répéteurs, menus, footer, header etc n'auront qu'un objectif : donner la meilleure image possible de votre activité et vous permettre de transformer vos prospects en clients actifs.</p><br> </div>
+            </div><br>
+
+            <div class="row">
+              <div class="col">
+        <img src="assets/img/misenligne.png" class="w-100" alt="mise_en_ligne"><br> </div>
+              <div class="col">
+        <img src="assets/img/maintenance.png" class="w-100" alt="maintenance_web"></div>
+            </div>
+            <div class="row">
+              <div class="col ">
+        <p style="background-color:rgb(61, 61, 46); width: 100%; margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">MISE EN LIGNE ET PHASE DE TEST</span> <br><br>
+          Cette catégorie regroupe tous les aspects techniques d'infrastructure de votre site. Réservation du nom de domaine et/ou connexion avec existant, mise en ligne effective, phase de tests sur plusieurs plate-formes sur 5 jours ... Rien n'est laissé au hasard et toutes les pages et tous les liens seront soumis à des tests poussés.</p><br> </div>
+              <div class="col ">
+                <p style="background-color:rgb(61, 61, 46); width: 100%; height: 100%;margin-left: auto; margin-right:auto;text-align:center;"><span style="color:bisque;">INFRASTRUCTURE ET MAINTENANCE</span> <br><br>
+                  Réservation du nom de domaine pour un an, location des serveurs ultra-rapides de haute qualité, systèmes de sécurisation et de référencement, maintenance et maintien en ligne 24h/24 et 7j/7, outils de publication du blog et de webmarketing (mailing, etc ...), Maintenance et accompagnement avec une grande réactivité assurée.
+Que cela soit juste après la présentation de mon travail ou dans 3 ans, je reste disponible et réactif pour effectuer des modifications de votre choix sur votre site internet : un nouveau prix, de nouvelles coordonnées, une image à changer ? J'effectue le travail demandé très rapidement. Je veille aussi à ce qu'il soit toujours en parfait état de fonctionnement et que son référencement soit optimisé sur les champs relevant de ma compétence. Je vous suis durant toute la durée de la vie de votre site et suis heureux de le voir évoluer avec votre activité.</p><br> </div>
+            </div><br>
+        </div>
+<div class="container">
+
+      <h4 style="color:rgb(122, 111, 97);font-weight:bold;">Options:</h4><br>
+      <p style="color:rgb(122, 111, 97);font-weight:bold;">Liste non exhaustive : autres prestations possibles sur demande.</p>
+      <p style="color:rgb(122, 111, 97);font-weight:bold;">5 pages supplémentaires au-delà de 10 : 299€ (pas de limite)</p>
+      <p style="color:rgb(122, 111, 97);font-weight:bold;">Autres prestations comme la création d'un logo : 399€ </p><br><br>
+      <p style="color:rgb(122, 111, 97);font-weight:bold;">Année d'hébergement et de maintenance supplémentaire à partir de n+1 : 169€ </p><br><br>
+
+
+
+
+</div>      </div>
+
+
+
+
+
+
+
+   <footer>
+    <div class="footer container-fluid">
+      <img src="assets/img/logoRS.png" class="d-block mx-auto" alt="logositeweb">
+      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+      <a href="mailto:rswebcorp@gmail.com" style="text-decoration: none;color:white;text-align:center;margin-top:2%; font-size: 12px;">rswebcorp@gmail.com</a>
+      <p style="color:white;text-align:center; font-size: 13px;">&copy; 2022 Richard SCHULZE <span><a [routerLink]="['/mentions_legales']">-Mentions légales</a><a [routerLink]="['/CGV']">- CGV</a></span></p>
+
+    </div>
+   </footer>
+
+</body>
+</html>
+

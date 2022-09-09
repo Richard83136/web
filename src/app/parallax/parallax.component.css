@@ -1,0 +1,153 @@
+body{
+  font-family: 'Prompt', sans-serif;
+  color:white;
+  text-align:center;
+
+}
+.nav-link:hover{
+  background-color: bisque;
+}
+.dropdown-menu:hover{
+  background-color: bisque;
+}
+.parallax {
+  /* Votre image */
+  background-image: url("https://www.codeur.com/tuto/wp-content/uploads/2022/02/p1.jpg");
+
+  /* Une hauteur spécifique */
+  height: 1000px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1{
+  color: white;
+  font-size: 75px;
+}
+.parallax1 {
+  /* Votre image */
+  background-image: url("/assets/img/1a.png");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.parallax2 {
+  /* Votre image */
+  background-image: url("/assets/img/freelance1.png");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.parallax3 {
+  /* Votre image */
+  background-image: url("/assets/img/4c.png");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax4 {
+  /* Votre image */
+  background-image: url("/assets/img/4a.png");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax5 {
+  /* Votre image */
+  background-image: url("/assets/img/5.jpg");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax6 {
+  /* Votre image */
+  background-image: url("/assets/img/designweb.png");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax7 {
+  /* Votre image */
+  background-image: url("/assets/img/choix.jpg");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax8 {
+  /* Votre image */
+  background-image: url("/assets/img/correct.jpg");
+
+  /* Une hauteur spécifique */
+  height: 950px;
+
+  /* L'effet de parallax */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.footer{
+  background-color: rgb(44,78,106);
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+span a{
+  text-decoration: none;
+  color: white;
+}
+.fin{
+  font-family: 'Ms Madi', cursive;
+  font-size: 50px;
+}
+

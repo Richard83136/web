@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+  <title>FAQ</title>
+
+</head>
+<style>
+  .corps{
+  background-image:linear-gradient(rgba(42, 134, 72, 0.4), rgba(59, 109, 156, 0.7)),url('/assets/img/phare.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+</style>
+<body >
+
+    <div class="corps container-fluid " style="margin-top: -38px;">
+      <img src="assets/img/logoRS.png" style="padding-top: 15px;" class="d-block mx-auto" alt="logositeweb">
+      <h2 style="color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="font-family: 'Prompt', sans-serif; color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+        <nav class="navbar navbar-expand-lg ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid">
+            <div class=" collapse navbar-collapse w-50" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" [routerLink]="['/accueil']">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mon experience
+                  </a>
+                  <ul class="dropdown-menu">
+                   
+                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    La création de votre site
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mes tarifs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/tarifs']" >Site de présentation</a></li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/me-contacter']">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Parallax</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+
+        <div class="container"><br><br>
+          <h2 style="font-weight:bold; text-align:center; margin-top: 20px;">
+            Foire aux questions !!!<br><br><br></h2>
+          <p style="margin-left:20%;text-align:justify; font-size: 15px; color:white; ">
+            <div class="accordion" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    1/ Sur quelle zone géographique intervenez-vous ?
+                  </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Que vous soyez d'un petit village ou d'une grande métropole, Internet nous permet une grande facilité d'échange et le cadre que j'ai mis en place dans ma pratique professionnelle nous permet de gagner du temps à chaque étape du processus.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    2/ Combien de temps prendra la réalisation de mon site ?
+                  </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Une fois que vous avez accepté mon devis et que je vous ai notifié de la bonne réception de votre acompte, je bloque des créneaux de production dans mon agenda. En fonction de votre site , il faut compter entre 20 jours et 1 mois en moyenne entre la reception de votre accompte et la présentation de votre site internet. Un émail vous sera envoyé pour vous informer de ces renseignements.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    3/ comment puis-je vous contacter ?
+                  </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Travaillant seul, je ne peux plus gérer les appels téléphoniques car le codage en developpement Web necessite précision et concentration.<br>
+                    Cependant, nous pouvons communiquer par téléphone si vous me l'indiquez lors de votre envoi de mail.<br><br>
+                    Par email : <a href="mailto:rswebcorp@gmail.com">rswebcorp@gmail.com</a>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    3/ Le prix de la création d'un site internet est-il modulable ?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    Le tarif comprend pour un site internet vitrine de présentation d'une entreprise ou autre (association, auto-entreprise...)  :<br> la creation du site, l'achat du nom de domaine (le nom de votre entreprise sur internet), la mise en ligne<br> auprès d'un serveur et la maintenance pendant 1 an).<br><br>
+                    Toutefois , en fonction de vos objectifs (de site) et de la valeur que vous souhaitez y mettre (qui interviendra de facto sur la qualité de votre site ) , je peux vous proposer des solutions.
+                  </div>
+                </div>
+              </div>
+            </div>
+
+        </div>
+<br>
+      </div>
+   <footer>
+    <div class="footer container-fluid">
+      <img src="assets/img/logoRS.png"  class="d-block mx-auto" alt="logositeweb">
+      <h2 style="color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+      <a href="mailto:rswebcorp@gmail.com" style="text-decoration: none;color:white;text-align:center;margin-top:2%; font-size: 12px;">rswebcorp@gmail.com</a>
+      <p style="color:white;text-align:center; font-size: 13px;">&copy; 2022 Richard SCHULZE <span><a [routerLink]="['/mentions_legales']">-Mentions légales</a><a [routerLink]="['/CGV']">- CGV</a></span></p>
+
+    </div>
+   </footer>
+
+</body>
+</html>
+
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+  <title>Etapes</title>
+
+</head>
+<style>
+  .corps{
+  background-image:linear-gradient(rgba(14, 44, 24, 0.4), rgba(76, 145, 209, 0.7)),url('/assets/img/freelance1.png');
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+
+}
+</style>
+<body >
+
+    <div class="corps container-fluid " style="margin-top: -38px;">
+      <img src="assets/img/logoRS.png" style=" padding-top: 15px;" class="d-block mx-auto" alt="logositeweb">
+      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h3 style="font-family: 'Prompt', sans-serif; color:rgb(90, 129, 71);text-align:center;font-weight:bold;">Developpeur Web</h3>
+        <nav class="navbar navbar-expand-lg ">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="container-fluid">
+            <div class=" collapse navbar-collapse w-50" id="navbarSupportedContent">
+              <ul class="navbar-nav mx-auto ">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" [routerLink]="['/accueil']">Accueil</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mon experience
+                  </a>
+                  <ul class="dropdown-menu">
+                    
+                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
+
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    La création de votre site
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
+                    <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Mes tarifs
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Site de présentation</a></li>
+
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/me-contacter']">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Parallax</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+        </nav>
+        <hr style="color:black;font-weight:bold; border-width: 3px" class="w-50 mx-auto">
+        <div class="container">
+          <h3 class="text-center">Les 3 grandes étapes de la création de votre site internet.</h3><br><br>
+        <div class="row">
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+            <img src="assets/img/designweb.png" class="card-img-top" style="border: 1px solid black;"alt="design_web">
+            <p class="mx-auto" style="color:black; margin-top: -10px; background-color:bisque; width:25%;">Design</p>
+            <div class="card-body">
+              <p class="card-text" style="color:black;">Vous avez dèjà une idée du graphisme que vous souhaitez (en-tête, photos...) ?<br>
+                Sinon voyons ensemble afin de définir un design et les différentes fonctionnalités de votre site...<br> </p>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+            <img src="assets/img/codage.png" class="card-img-top" style="border: 1px solid black;" alt="codage_site">
+            <p class="mx-auto" style="color:black; margin-top: -10px; background-color:bisque; width:25%;">Codage</p>
+            <div class="card-body">
+              <p class="card-text" style="color:black;">Je crée votre site à partir d'une page blanche ! Nous avons ainsi une maitrise complète de chaque aspect de votre site et rien n'est laissé au hasard ou à l'approximation pour coller au plus près de vos envies et besoins.</p>
+            </div>
+          </div>
+        </div>
+          <div class="col">
+            <div class="card" style="width: 20rem;">
+            <img src="assets/img/visiondusite.png" class="card-img-top" style="border: 1px solid black;" alt="vision_du_site">
+            <p class="mx-auto" style="color:black; margin-top: -10px; background-color:bisque; width:25%;">Vision Site</p>
+            <div class="card-body">
+              <p class="card-text" style="color:black;">Le codage terminé, je vous propose de visualiser votre futur site,<br> et de voir ensemble les éventuelles modifications à faire.</p>
+            </div>
+          </div>
+        </div>
+
+          </div>
+
+        </div>
+<br>
+      </div>
+   <footer>
+    <div class="footer container-fluid">
+      <img src="assets/img/logoRS.png"  class="d-block mx-auto" alt="logositeweb">
+      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+      <a href="mailto:rswebcorp@gmail.com" style="text-decoration: none;color:white;text-align:center;margin-top:2%; font-size: 12px;">rswebcorp@gmail.com</a>
+      <p style="color:white;text-align:center; font-size: 13px;">&copy; 2022 Richard SCHULZE <span><a [routerLink]="['/mentions_legales']">-Mentions légales</a><a [routerLink]="['/CGV']">- CGV</a></span></p>
+
+    </div>
+   </footer>
+
+</body>
+</html>
+
+
+
