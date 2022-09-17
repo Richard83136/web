@@ -7,17 +7,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <title>Creation</title>
 
 </head>
 
 <body >
 
-    <div class="corps container-fluid" style="margin-top:-40px;background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('assets/img/fond-ecran.png');">
+    <div class="corps container-fluid" style="margin-top:-40px;background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('assets/img/lac.jpg');">
       <img src="assets/img/logoRS.png" class="d-block mx-auto" style="padding-top: 15px; " alt="logositeweb">
       <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
-      <h4 style="font-family: 'Prompt', sans-serif; color:rgb(90, 129, 71);text-align:center;">Developpeur Web</h4>
+      <h4 style="font-family: 'Prompt', sans-serif; color:white;text-align:center;">Developpeur Web</h4>
         <nav class="navbar navbar-expand-lg ">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,7 +26,7 @@
             <div class=" collapse navbar-collapse w-50" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto ">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                  <a class="nav-link" aria-current="page" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
@@ -80,22 +80,31 @@
         <div class="container"><br>
           <h2 class="text-center">Retrouvez ci dessous quelques réalisations</h2><br>
               </div><br>
-              <div class="container">
-                <img src="assets/img/PB1.png" class="w-75"alt="pays_basques">
-                <img src="assets/img/PB.png" class="w-75"alt="pays_basques"><br><br>
-                <img src="assets/img/naturo.png" class="w-75"alt="ventouse">
+              <div class="container w-100">
+                <p style="text-decoration:underline;font-size:18px;font-weight:bold;">Gîte</p>
+                <img src="assets/img/labalinaise.png" alt="photo_gite_bali" class="w-75"><br><br>
+                <img src="assets/img/gite1.png" alt="photo_gite_bali" class="w-75"><br><br>
+                <img src="assets/img/gite2.png" alt="photo_gite_bali" class="w-75"><br><br>
+                <img src="assets/img/gite3.png" alt="photo_gite_bali" class="w-75"><br><br>
+                <p style="text-decoration:underline;font-size:18px;font-weight:bold;">Le Pays Basque</p>
+                <img src="assets/img/PB1.png" class="w-75"alt="pays_basque"><br><br>
+                <img src="assets/img/PB.png" class="w-75"alt="pays_basque"><br><br>
+                <p style="text-decoration:underline;font-size:18px;font-weight:bold;">Naturopathie</p>
+                <img src="assets/img/naturo.png" class="w-75"alt="ventouse"><br><br>
                 <img src="assets/img/ventouse.png" class="w-75"alt="ventouse"><br><br>
-                <img src="assets/img/resto.png" class="w-75"alt="restaurant">
+                <p style="text-decoration:underline;font-size:18px;font-weight:bold;">Restaurant</p>
+                <img src="assets/img/resto.png" class="w-75"alt="restaurant"><br><br>
                 <img src="assets/img/photorestaurant.png" class="w-75"alt="restaurant"><br><br>
-                <img src="assets/img/rocvoisin.png" class="w-75"alt="photo_association">
+                <p style="text-decoration:underline;font-size:18px;font-weight:bold;">Association</p>
+                <img src="assets/img/rocvoisin.png" class="w-75"alt="photo_association"><br><br>
                 <img src="assets/img/rocvoisin1.png" class="w-75"alt="photo_association">
               </div><br><br><br>
 
-              <h2 style="text-decoration:underline;">Les Sites:</h2> <br><br>
-
-              <div class="row"  style="margin-left: 10%;">
+              <h2 style="text-decoration:underline;">Les Sites à découvrir:</h2> <br><br>
+              <div class="container w-100">
+              <div class="row"  >
                 <div class="col ">
-              <div class="card" style="width: 20rem; border: 1px solid black;">
+              <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
                 <img src="assets/img/blog1.png" class="card-img-top" alt="design_web">
                 <div class="card-body">
                   <h5 class="card-title" style="color:black;">Site de Naturopathie</h5>
@@ -104,7 +113,7 @@
                 </div></div>
               </div>
               <div class="col">
-              <div class="card" style="width: 20rem; border: 1px solid black;">
+              <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
                 <img src="assets/img/pelat_kanan1.png" class="card-img-top" alt="photo_site">
                 <div class="card-body">
                   <h5 class="card-title" style="color:black;">Site restaurant</h5>
@@ -113,7 +122,7 @@
                 </div>
               </div></div>
               <div class="col">
-                <div class="card" style="width: 20rem; border: 1px solid black;">
+                <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
                   <img src="assets/img/presentation.png" class="card-img-top " alt="photo_association">
                   <div class="card-body">
                     <h5 class="card-title" style="color:black;">Association d'entraide</h5>
@@ -121,11 +130,11 @@
                     <a href="https://richard83136.github.io/rocvoisins/" target="_blank" class="btn btn-warning">Voir le site </a>
                   </div></div>
                 </div>
-            </div><br>
-              <div class="row " style="margin-left: 10%;">
+              </div>
+              <div class="row " >
 
                 <div class="col ">
-              <div class="card" style="width: 20rem; border: 1px solid black;">
+              <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
                 <img src="assets/img/creationweb.png" class="card-img-top" alt="design_web">
                 <div class="card-body">
                   <h5 class="card-title" style="color:black;">Site de Portfolio</h5>
@@ -134,19 +143,26 @@
                 </div></div>
               </div>
               <div class="col">
-                <div class="card" style="width: 20rem; border: 1px solid black;">
+                <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
                   <img src="assets/img/paysbasque.png" class="card-img-top " alt="photo_association">
                   <div class="card-body">
                     <h5 class="card-title" style="color:black;">Le Pays Basque</h5>
-                    <p class="card-text" style="color:black;">Site vitrine de presentation du Pays Basque</p>
+                    <p class="card-text" style="color:black;">Site vitrine d'information sur le Pays Basque</p>
                     <a href="https://richard83136.github.io/PaysBasque/" target="_blank" class="btn btn-secondary">Voir le site </a>
                   </div></div>
                 </div>
-                <div class="col"></div>
-                </div><br>
-                <div class="container">
-                  <img src="" alt="">
+              <div class="col">
+                <div class="card mt-5" style="width: 20rem; border: 1px solid black;">
+                  <img src="assets/img/gite.png" class="card-img-top " alt="photo_association">
+                  <div class="card-body">
+                    <h5 class="card-title" style="color:black;">Gîtes</h5>
+                    <p class="card-text" style="color:black;">Site vitrine de presentation d'un gîte à Bali</p>
+                    <a href="https://richard83136.github.io/gite/" target="_blank" class="btn btn-secondary">Voir le site </a>
+                  </div></div><br>
                 </div>
+
+              </div>
+              </div><br><br>
 
               </div>
 

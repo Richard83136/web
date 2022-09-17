@@ -1,6 +1,6 @@
 body{
   font-family: 'Prompt', sans-serif;
-  color:white;
+  color:black;
   text-align:center;
   margin-top:2%;
 }
@@ -15,17 +15,22 @@ body{
 .nav-link:hover{
   background-color: bisque;
 }
+.nav-link{
+  color:black;
+  font-weight:bold;
+}
 .dropdown-menu:hover{
   background-color: bisque;
 }
 .barre
 {
-  background-color: rgb(63, 59, 66);
+  background-color: rgb(105, 98, 110);
   opacity:0.5;
   width:100%;
   padding: 1%;
-  font-size: 13px;
-  font-weight:bold
+  font-size: 15px;
+  font-weight:bold;
+  color:white;
 }
 .footer{
   background-color: rgb(44,78,106);
@@ -37,8 +42,8 @@ span a{
   color: white;
 }
 .fin{
-  font-family: 'Ms Madi', cursive;
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
 }
 span{
   font-weight: bold;

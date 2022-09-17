@@ -7,12 +7,17 @@ body{
 .nav-link:hover{
   background-color: bisque;
 }
+.nav-link{
+  color:black;
+  font-weight: bold;
+  font-size: large;
+}
 .dropdown-menu:hover{
   background-color: bisque;
 }
 .parallax {
   /* Votre image */
-  
+
 
   /* Une hauteur spécifique */
   height: 1000px;
@@ -147,7 +152,6 @@ span a{
   color: white;
 }
 .fin{
-  font-family: 'Ms Madi', cursive;
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
 }
-

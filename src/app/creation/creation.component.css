@@ -14,6 +14,11 @@ body{
 }
 .nav-link:hover{
   background-color: bisque;
+  color:black;
+}
+.nav-link{
+  color:white;
+
 }
 .dropdown-menu:hover{
   background-color: bisque;
@@ -37,7 +42,7 @@ span a{
   color: white;
 }
 .fin{
-  font-family: 'Ms Madi', cursive;
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
 }
 

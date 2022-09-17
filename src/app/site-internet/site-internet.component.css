@@ -6,6 +6,10 @@ body{
 }
 .nav-link:hover{
   background-color: bisque;
+  color:black;
+}
+.nav-link{
+  color:white;
 }
 .footer{
   background-color: rgb(44,78,106);
@@ -17,6 +21,6 @@ span a{
   color: white;
 }
 .fin{
-  font-family: 'Ms Madi', cursive;
-  font-size: 50px;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
 }
