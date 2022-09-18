@@ -14,7 +14,7 @@
 
 <body >
 
-    <div class="corps container-fluid" style="margin-top:-40px;background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('assets/img/lac.jpg');">
+    <div class="parallax container-fluid" style="margin-top:-40px;background-image:url('assets/img/lac.jpg');">
       <img src="assets/img/logoRS.png" class="d-block mx-auto" style="padding-top: 15px; " alt="logositeweb">
       <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
       <h4 style="font-family: 'Prompt', sans-serif; color:white;text-align:center;">Developpeur Web</h4>
@@ -29,45 +29,34 @@
                   <a class="nav-link" aria-current="page" href="#">Accueil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Mes prestations</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mon experience
-                  </a>
-                  <ul class="dropdown-menu">
-
-                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/exemple-de-creation']">Mes réalisations</a>
                 </li>
+
+
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     La création de votre site
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    
                     <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
                     <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mes tarifs
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" [routerLink]="['/tarifs']">Site de présentation</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/tarifs']">Mes tarifs</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" [routerLink]="['/me-contacter']">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Parallax</a>
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Informations</a>
                 </li>
 
 

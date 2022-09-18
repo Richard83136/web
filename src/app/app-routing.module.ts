@@ -9,14 +9,12 @@ import { EtapesComponent } from './etapes/etapes.component';
 import { FAQComponent } from './faq/faq.component';
 import { MoiComponent } from './moi/moi.component';
 import { ParallaxComponent } from './parallax/parallax.component';
-import { SiteInternetComponent } from './site-internet/site-internet.component';
 import { TarifsComponent } from './tarifs/tarifs.component';
 
 
 const routes: Routes = [
   {path: 'accueil', component: AccueilComponent},
   {path: 'CGV', component: CGVComponent},
-  {path: 'site_internet', component: SiteInternetComponent},
   {path: 'les_3_etapes', component: EtapesComponent},
   {path: 'deroulement', component: DeroulementComponent},
   {path: 'tarifs', component: TarifsComponent},

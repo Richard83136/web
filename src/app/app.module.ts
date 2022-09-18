@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AccueilComponent } from './accueil/accueil.component';
 import { CGVComponent } from './cgv/cgv.component';
-import { SiteInternetComponent } from './site-internet/site-internet.component';
 import { EtapesComponent } from './etapes/etapes.component';
 import { DeroulementComponent } from './deroulement/deroulement.component';
 import { TarifsComponent } from './tarifs/tarifs.component';
@@ -21,7 +20,7 @@ import { ParallaxComponent } from './parallax/parallax.component';
     AccueilComponent,
 
     CGVComponent,
-    SiteInternetComponent,
+
     EtapesComponent,
     DeroulementComponent,
     TarifsComponent,

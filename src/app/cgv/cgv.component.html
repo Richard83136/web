@@ -14,10 +14,10 @@
 
 <body >
 
-    <div class="corps container-fluid" style="background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('assets/img/fond-ecran.png');">
+    <div class="parallax container-fluid" style="background-image:linear-gradient(rgba(114, 220, 149, 0.4), rgba(188, 202, 215, 0.7)),url('assets/img/fond-ecran.png');">
       <img src="assets/img/logoRS.png" style=" padding-top: 15px;" class="d-block mx-auto" alt="logositeweb">
-      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
-      <h4 style="font-family: 'Prompt', sans-serif; color:white;text-align:center;">Developpeur Web</h4>
+      <h2 style=" color:black;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+      <h4 style="font-family: 'Prompt', sans-serif; color:black;text-align:center;">Developpeur Web</h4>
         <nav class="navbar navbar-expand-lg ">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -29,51 +29,33 @@
                   <a class="nav-link" aria-current="page" [routerLink]="['/accueil']">Accueil</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Mes prestations</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mon experience
-                  </a>
-                  <ul class="dropdown-menu">
-
-                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/exemple-de-creation']">Mes réalisations</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     La création de votre site
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    
                     <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
                     <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mes tarifs
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Site de présentation</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/tarifs']">Mes tarifs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/contact']">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Informations</a>
                 </li>
 
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle bg-blue" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contact
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>
 
               </ul>
 
@@ -84,15 +66,15 @@
         <div class="container">
           <h2 class="text-center">CGV</h2>
 
-        <p style="margin-left:20%;text-align:justify; font-size: 15px; color:white;">Toutes mes prestations de service sont soumises aux règles contractuelles suivantes :<br>
+        <p style="text-align:center; font-size: 15px; color:black">Toutes mes prestations de service sont soumises aux règles contractuelles suivantes :<br>
           Le présent contrat est conclu entre la société prestataire, ci-après dénommée RSWebcorp, et le CLIENT final, ci après dénommé CLIENT.<br><br>
           Article 1 - Identification de l'entreprise<br>
           Société : RSwebcorp<br>
           N° Siret :<br>
           Site Internet : www.<br>
-          .../...<br>
-          Article 2 - Objet
-2.1 - Richard Schulze fournit essentiellement des prestations informatiques et multimédia liées à l'Internet, parmi lesquelles :<br><br>
+          .../...<br><br>
+          Article 2 - Objet<br>
+2.1 - Richard Schulze fournit essentiellement des prestations informatiques et multimédia liées à l'Internet, parmi lesquelles :<br>
 
 Création, réferencement et maintenance de sites Internet<br>
 

@@ -8,6 +8,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
   <title>Deroulement</title>
 
 </head>
@@ -15,61 +16,48 @@
 
 </style>
 <body >
-
-    <div class="corps container-fluid " style="margin-top: -38px; background-image:linear-gradient(rgba(20, 53, 31, 0.192), rgba(123, 170, 214, 0.904)),url('assets/img/freelance1.png');">
-      <img src="assets/img/logoRS.png" style=" padding-top: 15px;" class="d-block mx-auto" alt="logositeweb">
-      <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
-      <h3 style="font-family: 'Prompt', sans-serif; color:white;text-align:center;font-weight:bold;">Developpeur Web</h3>
-        <nav class="navbar navbar-expand-lg navbar-dark ">
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <div class="container-fluid parallax"style="background-image:linear-gradient(rgba(20, 53, 31, 0.192), rgba(167, 189, 209, 0.904)),url('assets/img/phare.jpg');">
+    <img src="assets/img/logoRS.png" style=" padding-top: 15px;" class="d-block mx-auto" alt="logositeweb">
+      <h2 style=" color:black;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
+        <h3 style="font-family: 'Prompt', sans-serif; color:black;text-align:center;font-weight:bold;">Developpeur Web</h3>
+          <nav class="navbar navbar-expand-lg navbar-dark ">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon" ></span>
-          </button>
+            </button>
           <div class="container-fluid">
             <div class=" collapse navbar-collapse w-50" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto ">
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" [routerLink]="['/accueil']">Accueil</a>
                 </li>
+
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Qui suis-je ?</a>
+                  <a class="nav-link " aria-current="page" [routerLink]="['/qui-suis-je']">Mes prestations</a>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mon experience
-                  </a>
-                  <ul class="dropdown-menu">
-
-                    <li><a class="dropdown-item" [routerLink]="['/exemple-de-creation']">Exemple de création</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/exemple-de-creation']">Mes réalisations</a>
                 </li>
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     La création de votre site
                   </a>
                   <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" [routerLink]="['/site_internet']">Présentation générale</a></li>
+                    
                     <li><a class="dropdown-item" [routerLink]="['/les_3_etapes']">Les 3 grandes étapes</a></li>
                     <li><a class="dropdown-item" [routerLink]="['/deroulement']">Déroulement de la création</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" [routerLink]="['/FAQ']">FAQ</a></li>
                   </ul>
                 </li>
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Mes tarifs
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a class="dropdown-item" [routerLink]="['/tarifs']">Site de présentation</a></li>
-
-                  </ul>
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" [routerLink]="['/tarifs']">Mes tarifs</a>
                 </li>
 
                 <li class="nav-item">
                   <a class="nav-link " aria-current="page" [routerLink]="['/me-contacter']">Contact</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Parallax</a>
+                  <a class="nav-link " aria-current="page" [routerLink]="['/parallax']">Informations</a>
                 </li>
 
               </ul>
@@ -77,100 +65,89 @@
             </div>
           </div>
         </nav>
-        <hr style="color:black;font-weight:bold; border-width: 3px" class="w-50 mx-auto">
-        <div class="container">
-          <h3 class="text-center">Le déroulement de la création</h3><br><br>
-        <p style="text-align:justify; margin-left: 20%;">
-          Coder, créer et satisfaire une demande, me passionne toujours autant et me stimule chaque jour de la semaine (et souvent le week-end aussi).<br><br>
+      <h2 style="color:black;text-align:center;font-size:3em; padding-top:20px;">Le déroulement de la création</h2><br>
+      <p style="text-align:center; color:black;font-weight:bold; ">
+              Voici comment se déroulerait notre relation si vous me faisiez l'honneur de m'accorder votre confiance pour la réalisation de votre site internet:<br><br><br>
 
-          Fort de cette expérience, je me suis toujours promis d'apprendre, encore et toujours, de chaque rencontre, de chaque projet, de chaque situation.<br><br>
+            <span style="color:white;"> 1/ La prise de contact par l'envoi d'un email (<a href="mailto:rswebcorp@gmail.com"style="color:blue;">rswebcorp@gmail.com</a>)</span><br><br>
 
-          Ainsi, la relation client et le processus créatif sont les plus optimaux en termes de temps, de productivité, de créativité, de rigueur et avant toute chose de satisfaction client.<br><br>
+            En retour je vous confirme sa reception et nous prenons contact (tph ou mail).<br><br>
 
-          Voici comment se déroulerait notre relation si vous me faisiez l'honneur de m'accorder votre confiance pour la réalisation de votre site internet:<br><br><br>​
+            Une fois votre type de site choisi ainsi que vos options éventuelles, vous pouvez régler votre acompte de plusieurs manières et tout cela bien sûr de manière ultra-sécurisée :<br><br>
 
-          1/ La prise de contact par l'envoi d'un email (<a href="mailto:rswebcorp@gmail.com">rswebcorp@gmail.com</a>)<br><br>
+              - par carte bancaire<br>
 
-          En retour je vous confirme sa reception et nous prenons contact (tph ou mail).<br><br>
+              - par PayPal<br>
 
-          Une fois votre type de site choisi ainsi que vos options éventuelles, vous pouvez régler votre acompte de plusieurs manières et tout cela bien sûr de manière ultra-sécurisée :<br><br>
+              - par chèque ou virement bancaire<br><br>
 
-- par carte bancaire<br>
+              Bien évidemment, vous recevrez immédiatement une facture complète justifiant votre achat.<br><br>
 
-- par PayPal<br>
+              A réception de votre règlement, je vous bloque des créneaux de production dans mon agenda et vous ouvre des accès vers mes documents de travail.<br><br>
 
-- par chèque ou virement bancaire<br><br>
+            <span style="color:white;"> 2/ Le fonctionnement entre nous</span> <br><br>
 
-Bien évidemment, vous recevrez immédiatement une facture complète justifiant votre achat.<br><br>
+              Vous trouverez facilement avec un lien dans un courriel un espace de travail contenant des dossiers et documents permettant d'organiser notre relation.<br> Cet espace conçu pour vous permettre de me donner le plus simplement possible vos contenus et aspirations.<br> Je peux vous envoyer mes questions et documents à remplir par mail directement également si vous préférez.<br><br>
 
-          A réception de votre règlement, je vous bloque des créneaux de production dans mon agenda et vous ouvre des accès vers mes documents de travail.<br><br>
+       <span style="color:firebrick; font-weight:bold;">Cette étape est cruciale et doit vous permettre d'exprimer toutes vos attentes.</span><br><br>
 
-          2/ Le fonctionnement entre nous <br><br>
+              Mon objectif : vous permettre d'avoir le site internet dont vous avez envie, attrayant pour l'internaute avec l'image d'un grand sérieux et d'une totale sécurité.<br><br>
 
-          Vous trouverez facilement avec un lien dans un courriel un espace de travail contenant des dossiers et documents permettant d'organiser notre relation.<br> Cet espace conçu pour vous permettre de me donner le plus simplement possible vos contenus et aspirations.<br> Je peux vous envoyer mes questions et documents à remplir par mail directement également si vous préférez.<br><br>
+            <span style="color:white;"> 3/ La création</span><br><br>
 
-         <span style="color:firebrick; font-weight:bold;">Cette étape est cruciale et doit vous permettre d'exprimer toutes vos attentes.</span><br><br>
+              Une fois que nous avons réuni les éléments dont je sais avoir besoin pour la création, je commence le codage et produis alors le site, y implante vos informations, crée son arborescence, structure chacune des pages, place des vidéos et photos que vous m'avez fournies ou plus généralement que je trouve avec grand soin, peaufine chaque lien, chaque aspect, petit ou grand, de votre site. Je travaille le référencement, le paramétrage des modules spécifiques comme une section blog / actualités si vous en voulez une, le formulaire de la page contact, etc ...<br><br>
+              Ce gros travail est la partie où votre projet prend vie avant de paraître sur internet.<br><br>
 
-          Mon objectif : vous permettre d'avoir le site internet dont vous avez envie, attrayant pour l'internaute avec l'image d'un grand sérieux et d'une totale sécurité.<br><br>
-          3/ La création<br><br>
+            <span style="color:white;"> 4/ Présentation de mon travail</span><br><br>
 
-          Une fois que nous avons réuni les éléments dont je sais avoir besoin pour la création, je commence le codage et produis alors le site, y implante vos informations, crée son arborescence, structure chacune des pages, place des vidéos et photos que vous m'avez fournies ou plus généralement que je trouve avec grand soin, peaufine chaque lien, chaque aspect, petit ou grand, de votre site. Je travaille le référencement, le paramétrage des modules spécifiques comme une section blog / actualités si vous en voulez une, le formulaire de la page contact, etc ...<br><br>
-          Ce gros travail est la partie où votre projet prend vie avant de paraître sur internet.<br><br>
+              Il est l'heure de vous présenter ma création pensée pour être la plus aboutie possible.<br>
+              Après le versement de la deuxième moitié du paiement, me permettant entre autres de payer tous les frais techniques inhérents au fonctionnement dans les meilleures conditions de votre site internet, je vous envoie le lien vers cette version de travail et vous laisse de fait l'étudier de près.<br><br>
 
-         4/ Présentation de mon travail<br><br>
+            <span style="color:white;"> 5/ Modifications</span><br><br>
 
-          Il est l'heure de vous présenter ma création pensée pour être la plus aboutie possible.<br>
-           Après le versement de la deuxième moitié du paiement, me permettant entre autres de payer tous les frais techniques inhérents au fonctionnement dans les meilleures conditions de votre site internet, je vous envoie le lien vers cette version de travail et vous laisse de fait l'étudier de près.<br><br>
+              Là encore, comme pour le recueil d'informations,  :<br>
 
-          5/ Modifications<br><br>
-
-          Là encore, comme pour le recueil d'informations,  :<br>
-
-          - vous remontez vos demandes à votre rythme par mail.<br>
-
-          ​
-          Qu'il n'y ait pas de changement à faire ou bien de petits ou grands à effectuer : pas de problème entre nous! Ce qui est le plus important pour moi c'est que le site vous convienne à 100%.<br><br>
+              - vous remontez vos demandes à votre rythme par mail.<br>
 
 
+              Qu'il n'y ait pas de changement à faire ou bien de petits ou grands à effectuer : pas de problème entre nous! Ce qui est le plus important pour moi c'est que le site vous convienne à 100%.<br><br>
 
-          Bien sûr, avec l'habitude, mon expérience et mes connaissances dans le domaine, j'ai parfois une idée différente de la vôtre sur certains aspects. Je vous le dis alors en toute transparence.<br><br>
-
-          6/ Back Office
-
-          Parallèlement à cette période de retouches (j'aime bien ce terme qui colle à l'idée que je me fais de ma pratique à la fois un créateur ou un artisan du digital), je m'occupe de la partie Back Office du site.(la partie « invisible » d'un site internet. C'est la partie utilisée pour la conception, la gestion et l'administration du site. Il s'agit en fait d'une interface protégée par un mot de passe qui sert à gérer le site) <br>​
-
-          Je travaille le référencement via un plan de missions dans le domaine sur-mesure pour votre activité avec des actions bien précises à mener sur chaque page pour un maximum d'efficacité : textes, titres, noms des images, description pour Google, balises méta, mots-clés, ... Tout doit être optimisé dès le départ pour avoir un bon Quality Score et mener votre site dans les premiers résultats de recherche au fil du temps.<br><br>
-
-          7/ Votre site est prêt !<br><br>
-
-          Prêt à vendre, prêt à faire vendre, prêt à donner la plus belle image possible de ce que vous êtes, de ce que vous faites.<br>
-           En front office ou en back office, tout est réglé au millimètre près pour durer et performer ! Je connecte le nom de domaine que vous possédez déjà ou le réserve pour vous. Le site est prêt à être parcouru dans le monde entier. Je vous fournis les codes d'accès à tout un espace merveilleux autour de votre site. <br><br>
+               Bien sûr, avec l'habitude, mon expérience et mes connaissances dans le domaine, j'ai parfois une idée différente de la vôtre sur certains aspects. Je vous le dis alors en toute transparence.<br><br>
 
 
-          8/ Toujours connectés.<br><br>
+            <span style="color:white;"> 6/ Back Office</span><br><br>
 
-          Notre relation ne s'arrête pas là.<br> Bien que le site soit en ligne, pensé pour être durable et autonome, je serai toujours là pour vous, pour vous répondre et vous aider dans les meilleurs délais.<br><br><br>
+              Parallèlement à cette période de retouches (j'aime bien ce terme qui colle à l'idée que je me fais de ma pratique à la fois un créateur ou un artisan du digital), je m'occupe de la partie Back Office du site.(la partie « invisible » d'un site internet. C'est la partie utilisée pour la conception, la gestion et l'administration du site. Il s'agit en fait d'une interface protégée par un mot de passe qui sert à gérer le site) <br>
 
-          Compléments d'information<br><br>
+              Je travaille le référencement via un plan de missions dans le domaine sur-mesure pour votre activité avec des actions bien précises à mener sur chaque page pour un maximum d'efficacité : textes, titres, noms des images, description pour Google, balises méta, mots-clés, ... Tout doit être optimisé dès le départ pour avoir un bon Quality Score et mener votre site dans les premiers résultats de recherche au fil du temps.<br><br>
 
-          En passant par moi, vous avez tous les codes d'accès de votre site, le statut évidemment de Propriétaire et donc ainsi la liberté de l'administrer comme vous le désirez et toutes les explications pour une utilisation optimale de tous les services liés à son existence. <br><br>
-           Je souhaite, par la mise en place de tout ce système créatif, un web transparent, clair, juste, rentable et durable avec en ligne de mire votre satisfaction pleine et entière à tout moment de la vie de votre site.<br><br>
+            <span style="color:white;"> 7/ Votre site est prêt !</span><br><br>
 
-
-
-          Plus qu'un simple developpeur Web, j'ai véritablement la volonté d'être également votre allié et votre consultant pour vos activités en ligne.<br>
-          Ainsi, je vous l'assure, je serai toujours ravi de répondre à toutes vos questions pour votre site internet.<br><br>
-
-          Merci de m'avoir lu jusqu'ici, je suis à votre service, n'hésitez pas à me contacter via le formulaire sur la page dédiée ou directement à <a href="mailto:rswebcorp@gmail.com"><span style="font-weight:bold; color:blue;">rswebcorp@gmail.com</span></a></p>
+              Prêt à vendre, prêt à faire vendre, prêt à donner la plus belle image possible de ce que vous êtes, de ce que vous faites.<br>
+              En front office ou en back office, tout est réglé au millimètre près pour durer et performer ! Je connecte le nom de domaine que vous possédez déjà ou le réserve pour vous. Le site est prêt à être parcouru dans le monde entier. Je vous fournis les codes d'accès à tout un espace merveilleux autour de votre site. <br><br>
 
 
+           <span style="color:white;">  8/ Toujours connectés.</span><br><br>
+
+              Notre relation ne s'arrête pas là.<br> Bien que le site soit en ligne, pensé pour être durable et autonome, je serai toujours là pour vous, pour vous répondre et vous aider dans les meilleurs délais.<br><br><br>
+
+            <span style="color:white;">  Compléments d'information</span><br><br>
+
+              En passant par moi, vous avez tous les codes d'accès de votre site, le statut évidemment de Propriétaire et donc ainsi la liberté de l'administrer comme vous le désirez et toutes les explications pour une utilisation optimale de tous les services liés à son existence. <br><br>
+              Je souhaite, par la mise en place de tout ce système créatif, un web transparent, clair, juste, rentable et durable avec en ligne de mire votre satisfaction pleine et entière à tout moment de la vie de votre site.<br><br>
+
+              Plus qu'un simple developpeur Web, j'ai véritablement la volonté d'être également votre allié et votre consultant pour vos activités en ligne.<br>
+              Ainsi, je vous l'assure, je serai toujours ravi de répondre à toutes vos questions pour votre site internet.<br><br>
+
+              Merci de m'avoir lu jusqu'ici, je suis à votre service, n'hésitez pas à me contacter directement à <a href="mailto:rswebcorp@gmail.com"><span style="font-weight:bold; color:blue;">rswebcorp@gmail.com</span></a></p><br><br>
+
+              <p style="text-align:center; color:black; ">Bonne journée et à bientôt</p>
+              <p style="text-align:center; color:black;font-family: 'Indie Flower', cursive;font-size: 40px; ">Richard</p><br>
 
 
+            </div>
 
-        </div>
-<br>
-      </div>
-   <footer>
+  <footer>
     <div class="footer container-fluid">
       <img src="assets/img/logoRS.png"  class="d-block mx-auto" alt="logositeweb">
       <h2 style=" color:white;text-align:center;margin-top:2%;" class="fin">Richard Schulze</h2>
